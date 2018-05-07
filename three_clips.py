@@ -1,6 +1,8 @@
 # coding:utf-8
 # @Time : 2018/5/7 15:58
 # @Author : yuy
+
+
 class Program(object):
     def __init__(self):
         pass
@@ -14,6 +16,9 @@ class Program(object):
                 print("5 booms")
             if i % 7 == 0:
                 print("7 booms")
+            if i % 9 == 0:
+                print("9 booms")
+
 
 if __name__ == "__main__":
     sol = Program()
